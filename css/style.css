@@ -3,3 +3,103 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-image: url('../img/natural-pattern.png');
+}
+
+.content{
+  margin: 0 auto;
+  height: 900px;
+  width: 800px;
+  border: 1px solid green;
+}
+
+header{
+  border: 1px solid red;
+}
+
+.header.top{
+  background-image: url('../img/natural-header.jpg');
+  height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
+.logo-header{
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h2{
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 20px;
+  color: white;
+}
+
+.header.bottom{
+  background-color: #a09da8;
+  text-align: center;
+}
+
+.menu.header li{
+  display: inline-block;
+  padding: 15px 20px;
+  color: white;
+  /* togli il sottolineato */
+
+}
+
+.header li:hover{
+  background-color: rgba(18, 17, 18, 0.1);
+}
+
+
+main{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.flexbox{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float:left;
+}
+
+.box.first{
+  width: 25%;
+  background-color: white;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
+.header-first-box{
+  height: 30px;
+  width: 100%;
+  background-color: green;
+}
+
+.rss{
+  height: 30px;
+  width: 20%;
+  background-color: orange;
+}
+
+.titlebox{
+  height: 30px;
+  width: 80%;
+  background-color: yellow;
+}
