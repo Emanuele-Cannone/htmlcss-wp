@@ -73,8 +73,14 @@ main{
   clear: both;
 }
 
-.float-left{
+.box{
   float:left;
+}
+
+aside::after{
+  content:'';
+  display: table;
+  clear: both;
 }
 
 .box.first{
@@ -111,9 +117,20 @@ ul li,a.help{
   color: green;
 }
 
+section.box::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+
+section.box{
+  margin: 0 30px;
+}
+
 section .box.second{
   height: 300px;
-  width: 50%;
+  width: 300px;
   background-color: white;
 
 }
@@ -141,11 +158,25 @@ section .title{
 .article{
   width: 100%;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
 
-.article.middle{
-  margin: 20px 0;
+.article h4{
+  text-transform: capitalize;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.article p{
+  padding: 20px 10px;
+}
+
+
+footer::after{
+  content:'';
+  display: table;
+  clear: both;
 }
 
 
@@ -154,11 +185,21 @@ footer{
   height: 100px;
   background-color: white;
   border-radius: 10px;
+  color: rgba(29, 27, 27, 0.37);
 }
 
-.footer-down .facebook-icon{
+.footer-up p{
+  text-align: center;
+}
+
+.footer-up p span{
+  text-transform: capitalize;
+}
+
+.footer-down .facebook-icon,.instagram-icon,.github-icon{
   display: inline-block;
   width: calc((100% / 3) - 3px);
   text-align: center;
   line-height: 100px;
+  font-size: 30px;
 }
