@@ -1,142 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <title>Wordpress</title>
-  </head>
-  <body>
-    <!-- inizio contenitore principale -->
-    <div class="content">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="contenitore">
+    <header>
 
-
-      <!-- inizio header -->
-      <header>
-
-        <!-- header alto con immagine, logo, titolo -->
-        <div class="header top">
-          <div class="title">
-            <img class="logo-header" src="img/natural-logo.png" alt="logo-header">
-            <h2>another beautiful organic theme</h2>
-          </div>
+      <div class="header-top">
+        <div class="logo">
+          <img class="dimensione" src="img/natural-logo.png" alt="logo">
+          <h2>another beautiful organic theme</h2>
         </div>
+      </div>
 
+      <div class="header-bottom">
+        <ul class="menu-header">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">page templates</a></li>
+          <li><a href="#">a parent pages</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+    </header>
 
-
-
-        <!-- header basso con nav -->
-        <div class="header bottom">
-          <nav>
-            <ul class="menu header">
-              <li><a href="#">ciao</a></li>
-              <li><a href="#">ciao</a></li>
-              <li><a href="#">ciao</a></li>
-              <li><a href="#">ciao</a></li>
-              <li><a href="#">ciao</a></li>
-              <li><a href="#">ciao</a></li>
-              <li><a href="#">ciao</a></li>
-            </ul>
-          </nav>
-        </div>
-
-      </header>
-      <!-- fine header -->
-
-
-      <!-- inizio main -->
-      <main class="flexbox">
-
-
-
-        <!-- inizio prima colonna -->
-        <aside class="box first">
-
-          <!-- logo e titolo -->
-          <div class="header-first-box flexbox">
-            <div class="rss float-left"><i class="fas fa-rss-square"></i></div>
-            <div class="titlebox float-left"><h2>organic themes</h2></div>
-          </div>
-          <div class="collegamenti">
-            <ul>
-              <li><a class="help" href="#">how to pick a wordpress theme for 2019</a></li>
-              <li><a class="help" href="#">how to pick a wordpress theme for 2019</a></li>
-              <li><a class="help" href="#">how to pick a wordpress theme for 2019</a></li>
-              <li><a class="help" href="#">how to pick a wordpress theme for 2019</a></li>
-            </ul>
-
-          </div>
-
-          <!-- crea un aside con i collegamenti ul - li -->
-        </aside>
-        <!-- fine prima colonna -->
-
-        <!-- inizio seconda colonna -->
-        <section class="box second">
-          <div class="title">
-            <h3>three column</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <!-- crea una section con titolo e un paragrafo -->
-        </section>
-        <!-- fine seconda colonna -->
-
-        <!-- inizio terza colonna -->
-        <section class="box third">
-          <!-- crea un contenitore iniziale -->
-          <div class="">
-
-            <!-- inserisci primo aside con titolo e p -->
-            <aside class="article up">
-              <h4>text widget</h4>
-              <p>This is an example of a text widget. You could write a brief introduction to your site, add links, images, vide, HTML and more using a text widget. It's pretty handy!</p>
-            </aside>
-            <!-- inserisci secondo aside con titolo e p -->
-            <aside class="article middle">
-              <h4>text widget</h4>
-              <p>This is an example of a text widget. You could write a brief introduction to your site, add links, images, vide, HTML and more using a text widget. It's pretty handy!</p>            </aside>
-            <!-- inserisci terzo aside con titolo e p -->
-            <aside class="article bottom">
-              <h4>text widget</h4>
-              <p>This is an example of a text widget. You could write a brief introduction to your site, add links, images, vide, HTML and more using a text widget. It's pretty handy!</p>
-            </aside>
-          </div>
-          <!-- fine contenitore  -->
-        </section>
-        <!-- fine terza colonna -->
-
-        <!-- inizio footer -->
-        <footer class="flexbox">
-          <!-- crea un contenitore -->
-          <div class="container-footer">
-
-            <!-- inserisci un div con firma e hr  -->
-            <div class="footer-up">
-              <p> <span>pagina</span> realizzata da <span>emanuele cannone</span> </p>
-              <hr>
-            </div>
-
-            <!-- inserisci un div con le icone social -->
-            <div class="footer-down">
-              <div class="facebook-icon">
-                <i class="fab fa-facebook-square"></i>
-              </div>
-              <div class="instagram-icon">
-                <i class="fab fa-instagram"></i>
-              </div>
-              <div class="github-icon">
-                <i class="fab fa-github"></i>
-              </div>
-
+    <main class="clearfix">
+      <aside class="col-sx float-left">
+        <div class="box-col-sx">
+          <div class="title-feed clearix">
+            <div class="icon-feed float-left"><i class="fas fa-rss-square"></i></div>
+            <div class="title float-left">
+              <h4>organic themes</h4>
             </div>
           </div>
-          <!-- fine contenitore -->
-        </footer>
-        <!-- fine footer -->
+            <ul class="menu-sx">
+              <li><a href="#">How To Pick A Wordpress theme for 2019</a></li>
+              <li><a href="#">The Updated Gutenberg</a></li>
+              <li><a href="#">Black Friday Through Cyber Monday Deal for WordPress Website Owners</a></li>
+              <li><a href="#">The Ultimate Guide To Optimizing Your WordPress Theme For Gutenberg</a></li>
+              <li><a href="#">A Better WordPress Page Builder - Organic Builder Widgets Pro</a></li>
+            </ul>
+        </div>
 
-      <!-- fine main -->
-      </main>
-    </div>
-    <!-- fine contenitore principale -->
-  </body>
+      </aside>
+      <aside class="col-cx float-left">
+        <div class="box-col-cx">
+          <h4>three column</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </aside>
+      <aside class="col-dx float-left">
+        <div class="box-col-dx">
+          <div class="article up">
+            <h4>text widget</h4>
+            <p>This is an example of a text widget. You could write a brief introduction to your site, add links, images, vide, HTML and more using a text widget. It's pretty handy!</p>
+          </div>
+        </div>
+        <div class="box-col-dx">
+          <div class="article middle">
+            <h4>text widget</h4>
+            <p>This is an example of a text widget. You could write a brief introduction to your site, add links, images, vide, HTML and more using a text widget. It's pretty handy!</p>
+          </div>
+        </div>
+        <div class="box-col-dx">
+          <div class="article bottom">
+            <h4>text widget</h4>
+            <p>This is an example of a text widget. You could write a brief introduction to your site, add links, images, vide, HTML and more using a text widget. It's pretty handy!</p>
+          </div>
+        </div>
+      </aside>
+
+    </main>
+
+    <footer>
+      <div class="footer up">
+        <h2><span class="format-testo">pagina</span> realizzata da <span class="format-testo">emanuele cannone</span></h2>
+        <hr>
+      </div>
+      <div class="footer bottom clearix">
+        <div class="stileicone float-left" id="facebook"><i class="fab fa-facebook-square"></i></div>
+        <div class="stileicone float-left" id="instagram"><i class="fab fa-instagram-square"></i></div>
+        <div class="stileicone float-left" id="github"><i class="fab fa-github-square"></i></div>
+      </div>
+    </footer>
+  </div>
+
+
+
+</body>
 </html>
